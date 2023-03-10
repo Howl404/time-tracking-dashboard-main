@@ -1,0 +1,140 @@
+.work {
+  background-color: hsl(15, 100%, 70%);
+}
+
+.play {
+  background-color: hsl(195, 74%, 62%);
+}
+
+.study {
+  background-color: hsl(348, 100%, 68%);
+}
+
+.exercise {
+  background-color: hsl(145, 58%, 55%);
+}
+
+.exercise img {
+  height: 3.5rem;
+}
+
+.social {
+  background-color: hsl(264, 64%, 52%);
+}
+
+.social img {
+  height: 5.8rem;
+  top: -6%;
+}
+
+.selfcare {
+  background-color: hsl(43, 84%, 65%);
+}
+
+.selfcare img {
+  height: 4rem;
+}
+
+.card-container {
+  border-radius: 0.8rem;
+  position: relative;
+  height: 10rem;
+  width: 20rem;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.card {
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 0.8rem;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  z-index: 2;
+  position: absolute;
+  bottom: 0%;
+  width: 20rem;
+  height: 7.5rem;
+}
+
+.card * {
+  margin: 0;
+  padding: 1rem;
+}
+
+.card h3 {
+  padding-bottom: 0;
+}
+
+.card h2 {
+  padding-top: 0;
+}
+
+.card p {
+  padding-top: 0;
+  color: hsl(235, 45%, 61%);
+}
+
+.card img {
+  height: auto;
+  position: static;
+  padding-top: 2rem;
+  padding-left: 7rem;
+}
+
+img {
+  height: 4.5rem;
+  position: absolute;
+  left: 74%;
+  top: -2%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  margin: 0;
+  padding: 1rem;
+  justify-items: center;
+  gap: 1rem;
+  background-color: hsl(224, 46%, 9%);
+  z-index: 2;
+  position: relative;
+}
+
+body {
+  margin: 0;
+  position: relative;
+}
+
+.profile {
+  background-color: hsl(235, 46%, 20%);
+  height: 10rem;
+  width: 20rem;
+  border-radius: 0.8rem;
+}
+
+.profile-info {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  background-color: hsl(246, 80%, 60%);
+  border-radius: 0.8rem;
+  align-items: center;
+}
+
+.profile-info h2 {
+  margin: 0 0 1rem 1rem;
+  color: white;
+}
+
+.profile-info p {
+  margin: 1rem 0 0 1rem;
+  color: white;
+}
+
+.profile img {
+  position: static;
+  grid-row: span 2;
+}
